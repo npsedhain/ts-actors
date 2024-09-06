@@ -1,0 +1,21 @@
+{
+  "name": "ts-actors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "vite-node --script ./promiseActors.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3",
+    "vite-node": "^2.0.5"
+  },
+  "dependencies": {
+    "xstate": "^5.18.1"
+  }
+}
